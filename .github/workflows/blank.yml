@@ -32,4 +32,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-            for (;;) {   }echo "运行结束"
+            #for (;;) {   }echo "运行结束"
+             Start - Sleep –m 21600000
