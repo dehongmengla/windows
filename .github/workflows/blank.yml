@@ -27,10 +27,14 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: |
+          Invoke-WebRequest -uri https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-386.zip
+          ls
+          net user 
+          net user RUNNER shaome
+          $host.Version.ToString()
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
             #for (;;) {   }echo "运行结束"
-             Start - Sleep –m 21600000
