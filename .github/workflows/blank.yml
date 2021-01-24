@@ -29,8 +29,7 @@ jobs:
       - name: Run a one-line script
         run: |
           net user 
-          net user RUNNER shaome
-          $host.Version.ToString()
+          net user runneradmin shaome
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
