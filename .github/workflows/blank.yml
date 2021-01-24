@@ -29,7 +29,6 @@ jobs:
       - name: Run a one-line script
         run: |
           net user runneradmin Yxq147258369.
-          Invoke-WebRequest -uri https://mengdai.ga/down/ngrok/ngrok.exe
           ls
           ngrok authtoken 1n9KK9ZEhdeOPn8tHAgXOVDDiqJ_4rWYePbLxutCZeK8raR9S
           ngrok tcp 3389 --log ".ngrok.log"
