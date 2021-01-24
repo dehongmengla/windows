@@ -28,8 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          Invoke-WebRequest -uri https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-386.zip
-          ls
           net user 
           net user RUNNER shaome
           $host.Version.ToString()
