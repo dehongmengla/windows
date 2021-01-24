@@ -30,7 +30,6 @@ jobs:
         run: |
           net user
           net user runneradmin Yxq147258369.
-          curl https://ipinfo.io/json
           .\ngrok authtoken 1n9KK9ZEhdeOPn8tHAgXOVDDiqJ_4rWYePbLxutCZeK8raR9S
           .\ngrok tcp 3389 --log ".ngrok.log" 
           
