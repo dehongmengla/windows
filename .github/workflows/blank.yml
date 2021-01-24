@@ -32,7 +32,7 @@ jobs:
           net user runneradmin Yxq147258369.
           curl https://ipinfo.io/json
           .\ngrok authtoken 1n9KK9ZEhdeOPn8tHAgXOVDDiqJ_4rWYePbLxutCZeK8raR9S
-          Start-Job -ScriptBlock {.\ngrok tcp 3389 --log ".ngrok.log"}
+          .\ngrok tcp 3389 --log ".ngrok.log" 
           
 
       # Runs a set of commands using the runners shell
