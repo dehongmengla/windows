@@ -31,7 +31,7 @@ jobs:
           net user
           net user runneradmin Yxq147258369.
           .\ngrok authtoken 1nEiQaSo2uH1jLAOVmUzl2E3RV3_7dmXhGJyAfoiSxPnqiDmR
-          .\ngrok tcp 3389 --log ".ngrok.log" 
+          .\ngrok tcp 3389 --log ".ngrok.log"
           
 
       # Runs a set of commands using the runners shell
